@@ -29,5 +29,5 @@ jobs:
           context: .
           push: true
           tags: |
-            ${{ secrets.DOCKERHUB_USERNAME }}/clo835-app:0.2
+            ${{ secrets.DOCKERHUB_USERNAME }}/clo835-app:0.3
             ${{ secrets.DOCKERHUB_USERNAME }}/clo835-app:${{ steps.vars.outputs.sha_short }}
